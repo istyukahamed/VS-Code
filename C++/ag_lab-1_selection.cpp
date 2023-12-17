@@ -22,6 +22,7 @@ void selectionSort(int arr[], int arrSize)
         }
 
         // swap the minimum value element
+        
         if (minIndexValue != i)
         {
             swapping(&arr[minIndexValue], &arr[i]);
